@@ -13,6 +13,6 @@ class Singleton {
 
 let s1 = new Singleton()
 let s2 = new Singleton()
-console.log('Are they the same? ' + (s1 === s2))
+console.log('Are they the same? ' + (s1 === s2)) // Are they the same? true
 
 s1.say()
