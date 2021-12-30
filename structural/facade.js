@@ -32,7 +32,7 @@ class ComputerFacade {
   }
   start() {
     this.processor.freeze()
-    this.rame.load(
+    this.ram.load(
       this.BOOT_ADDRESS,
       this.hd.read(this.BOOT_SECTOR, this.SECTOR_SIZE)
     )
